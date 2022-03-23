@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
@@ -17,12 +20,13 @@ header {
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
 }
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
+  font-family: "Montserrat";
+  font-weight: 500;
 }
 
 footer {
@@ -71,7 +75,7 @@ footer p {
 
 .note .title{
   font-weight:bold ;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 form.create-note {
   position: relative;
